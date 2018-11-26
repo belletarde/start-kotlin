@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31e757f-40c4-44b1-aa31-fa1c51f52b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basic/cast.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/errors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercises/VowelConsonant.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercises/VowelConsonantTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nullSafe/NullExampleJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nullSafe/nullSafe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/ExtensionNumberTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/ExtensionNumver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/ManyParamTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/manyParam.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/moreFuncitons/extensionFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/moreFuncitons/moreParam.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FirstCode/META-INF/FirstCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstCode/META-INF/FirstCode.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FirstCode/nullSafe/NullSafeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FirstCode/nullSafe/NullSafeKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,28 +33,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="java" value="2" />
-          <entry key="kt" value="18" />
+          <entry key="kt" value="25" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="JAVA" value="2" />
-          <entry key="Kotlin" value="18" />
+          <entry key="Kotlin" value="25" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="76" />
-          <entry key="kt" value="3482" />
+          <entry key="kt" value="4474" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="76" />
-          <entry key="Kotlin" value="3482" />
+          <entry key="Kotlin" value="4474" />
         </counts>
       </usages-collector>
     </session>
@@ -61,24 +64,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/VowelConsonant.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nullSafe/nullSafe.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nullSafe/NullExampleJava.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -88,10 +73,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/functions.kt">
+        <entry file="file://$PROJECT_DIR$/src/moreFuncitons/moreParam.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/moreFuncitons/extensionFunctions.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exercises/ExtensionNumberTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exercises/ManyParamTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exercises/manyParam.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exercises/ExtensionNumver.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -147,6 +177,13 @@
         <option value="$PROJECT_DIR$/src/exercises/VowelConsonant.kt" />
         <option value="$PROJECT_DIR$/src/nullSafe/nullSafe.kt" />
         <option value="$PROJECT_DIR$/src/nullSafe/NullExampleJava.java" />
+        <option value="$PROJECT_DIR$/src/moreFuncitons/extensionFunctions.kt" />
+        <option value="$PROJECT_DIR$/src/exercises/ExtensionNumver.kt" />
+        <option value="$PROJECT_DIR$/src/exercises/ExtensionNumberTest.kt" />
+        <option value="$PROJECT_DIR$/src/moreFuncitons/moreParam.kt" />
+        <option value="$PROJECT_DIR$/src/exercises/ExtensionNumber.kt" />
+        <option value="$PROJECT_DIR$/src/exercises/manyParam.kt" />
+        <option value="$PROJECT_DIR$/src/exercises/ManyParamTest.kt" />
       </list>
     </option>
   </component>
@@ -189,6 +226,12 @@
               <item name="FirstCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="moreFuncitons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="nullSafe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -203,13 +246,18 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542739796093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543193783169" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="exercises" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\Documents\Kevin\Kotlin\src\exercises" />
+      <recent name="C:\Users\Pichau\Documents\Kevin\Kotlin\src\moreFuncitons" />
       <recent name="C:\Users\Pichau\Documents\Kevin\Kotlin\src\basic" />
     </key>
   </component>
@@ -225,8 +273,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.nullSafe.NullSafeKt">
-    <configuration name="ReverseStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ManyParamTest.sumAllaParameters">
+    <configuration name="ExtensionNumberTest.percentOfNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FirstCode" />
       <extension name="coverage">
         <pattern>
@@ -235,12 +283,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="exercises" />
-      <option name="MAIN_CLASS_NAME" value="exercises.ReverseStringTest" />
+      <option name="MAIN_CLASS_NAME" value="exercises.ExtensionNumberTest" />
+      <option name="METHOD_NAME" value="percentOfNumber" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VowelConsonantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManyParamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FirstCode" />
       <extension name="coverage">
         <pattern>
@@ -249,64 +299,67 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="exercises" />
-      <option name="MAIN_CLASS_NAME" value="exercises.VowelConsonantTest" />
+      <option name="MAIN_CLASS_NAME" value="exercises.ManyParamTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basic.ErrorsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="ManyParamTest.sumAllaParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.ManyParamTest" />
+      <option name="METHOD_NAME" value="sumAllaParameters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moreFuncitons.ExtensionFunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FirstCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="basic.ErrorsKt" />
+      <option name="MAIN_CLASS_NAME" value="moreFuncitons.ExtensionFunctionsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basic.LoopsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="moreFuncitons.MoreParamKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="FirstCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="basic.LoopsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nullSafe.NullSafeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="FirstCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="nullSafe.NullSafeKt" />
+      <option name="MAIN_CLASS_NAME" value="moreFuncitons.MoreParamKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.basic.LoopsKt" />
-      <item itemvalue="JUnit.ReverseStringTest" />
-      <item itemvalue="Kotlin.basic.ErrorsKt" />
-      <item itemvalue="JUnit.VowelConsonantTest" />
-      <item itemvalue="Kotlin.nullSafe.NullSafeKt" />
+      <item itemvalue="Kotlin.moreFuncitons.ExtensionFunctionsKt" />
+      <item itemvalue="JUnit.ExtensionNumberTest.percentOfNumber" />
+      <item itemvalue="Kotlin.moreFuncitons.MoreParamKt" />
+      <item itemvalue="JUnit.ManyParamTest" />
+      <item itemvalue="JUnit.ManyParamTest.sumAllaParameters" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.nullSafe.NullSafeKt" />
-        <item itemvalue="JUnit.VowelConsonantTest" />
-        <item itemvalue="Kotlin.basic.ErrorsKt" />
-        <item itemvalue="JUnit.ReverseStringTest" />
-        <item itemvalue="Kotlin.basic.LoopsKt" />
+        <item itemvalue="JUnit.ManyParamTest.sumAllaParameters" />
+        <item itemvalue="JUnit.ManyParamTest" />
+        <item itemvalue="Kotlin.moreFuncitons.MoreParamKt" />
+        <item itemvalue="JUnit.ExtensionNumberTest.percentOfNumber" />
+        <item itemvalue="Kotlin.moreFuncitons.ExtensionFunctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -324,35 +377,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReverseStringTest - 2018.11.15 at 22h 25m 26s.xml">
-      <configuration name="ReverseStringTest" configurationId="JUnit" />
+    <history-entry file="ExtensionNumberTest_percentOfNumber - 2018.11.25 at 21h 48m 39s.xml">
+      <configuration name="ExtensionNumberTest.percentOfNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseStringTest - 2018.11.15 at 22h 26m 08s.xml">
-      <configuration name="ReverseStringTest" configurationId="JUnit" />
+    <history-entry file="ExtensionNumberTest_percentOfNumber - 2018.11.25 at 21h 48m 52s.xml">
+      <configuration name="ExtensionNumberTest.percentOfNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseStringTest - 2018.11.15 at 22h 29m 59s.xml">
-      <configuration name="ReverseStringTest" configurationId="JUnit" />
+    <history-entry file="ExtensionNumberTest_percentOfNumber - 2018.11.25 at 21h 51m 25s.xml">
+      <configuration name="ExtensionNumberTest.percentOfNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseStringTest - 2018.11.15 at 22h 30m 20s.xml">
-      <configuration name="ReverseStringTest" configurationId="JUnit" />
+    <history-entry file="ExtensionNumberTest_percentOfNumber - 2018.11.25 at 21h 51m 57s.xml">
+      <configuration name="ExtensionNumberTest.percentOfNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VowelConsonantTest - 2018.11.20 at 16h 29m 03s.xml">
-      <configuration name="VowelConsonantTest" configurationId="JUnit" />
+    <history-entry file="ExtensionNumberTest_percentOfNumber - 2018.11.25 at 21h 52m 46s.xml">
+      <configuration name="ExtensionNumberTest.percentOfNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VowelConsonantTest - 2018.11.20 at 16h 30m 21s.xml">
-      <configuration name="VowelConsonantTest" configurationId="JUnit" />
+    <history-entry file="ExtensionNumberTest_percentOfNumber - 2018.11.25 at 21h 53m 03s.xml">
+      <configuration name="ExtensionNumberTest.percentOfNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VowelConsonantTest - 2018.11.20 at 16h 30m 32s.xml">
-      <configuration name="VowelConsonantTest" configurationId="JUnit" />
+    <history-entry file="ManyParamTest - 2018.11.25 at 22h 49m 28s.xml">
+      <configuration name="ManyParamTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VowelConsonantTest - 2018.11.20 at 16h 35m 59s.xml">
-      <configuration name="VowelConsonantTest" configurationId="JUnit" />
+    <history-entry file="ManyParamTest_sumAllaParameters - 2018.11.25 at 22h 50m 02s.xml">
+      <configuration name="ManyParamTest.sumAllaParameters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VowelConsonantTest - 2018.11.20 at 16h 43m 39s.xml">
-      <configuration name="VowelConsonantTest" configurationId="JUnit" />
+    <history-entry file="ManyParamTest_sumAllaParameters - 2018.11.25 at 22h 51m 41s.xml">
+      <configuration name="ManyParamTest.sumAllaParameters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VowelConsonantTest - 2018.11.20 at 16h 44m 22s.xml">
-      <configuration name="VowelConsonantTest" configurationId="JUnit" />
+    <history-entry file="ManyParamTest_sumAllaParameters - 2018.11.25 at 22h 51m 59s.xml">
+      <configuration name="ManyParamTest.sumAllaParameters" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -368,7 +421,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,6 +534,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#19#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -554,6 +610,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/moreFuncitons/extensionFunctions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/ExtensionNumver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/moreFuncitons/moreParam.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/ExtensionNumberTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/ExtensionNumber.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/manyParam.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/ManyParamTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
